@@ -423,16 +423,15 @@
                         <label for="comment">Коментар</label>
                         <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введіть коментар"></textarea>
                     </div>
-                    <div class="accept">
-                        <input class="visually-hidden" type="checkbox" name="accept" id="accept" required>
+                    <label for="accept">
+                        <input class="visually-hidden input-icon" type="checkbox" name="accept" id="accept" required>
                         <span class="checkbox-icon">
-                            <svg class="check-icon" viewBox="0 0 100 100" width="16">
-                                <use xlink:href="./image/icons.svg#i-check"></use>
-                            </svg>
+                             <svg class="check-icon" viewBox="0 0 100 100" width="16">
+                                 <use xlink:href="./image/icons.svg#i-check"></use>
+                             </svg>
                         </span>
-                        <label class="checkbox" for="accept">Погоджуюся з розсилкою та приймаю <a class="form-link" href="">Умови
-                                договору</a></label>
-                    </div>
+                        Погоджуюся з розсилкою та приймаю <a class="form-link" href="">Умови договору</a>
+                    </label>
                     <button type="submit" class="form-btn">Відправити</button>
                 </form>
             </div>

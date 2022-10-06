@@ -899,11 +899,11 @@ a {
 }
 
 
-.form-element:focus-within svg {
+.form-element:focus-within svg, .form-element:hover svg {
     fill: var(--accent-color);
 }
 
-.form-element:focus-within input, .form-element:focus-within textarea {
+.form-element:focus-within input, .form-element:hover input, .form-element:focus-within textarea, .form-element:hover textarea {
     border: 1px solid var(--accent-color);
 }
 
@@ -1005,7 +1005,8 @@ a {
     align-items: center;
 }
 
-.accept input:checked + .checkbox-icon {
+
+.input-icon:checked + .checkbox-icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
